@@ -2,108 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Diligent Yield</title>
-    <link>http://localhost:1313/andrey9871234/tags/</link>
+    <link>http://localhost:1313/demo/tags/</link>
     <description>Recent content in Tags on Diligent Yield</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 04 Oct 2023 22:11:36 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/andrey9871234/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/demo/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Black Hole</title>
-      <link>http://localhost:1313/andrey9871234/tags/black-hole/</link>
+      <link>http://localhost:1313/demo/tags/black-hole/</link>
       <pubDate>Wed, 04 Oct 2023 22:11:36 +0700</pubDate>
-      <guid>http://localhost:1313/andrey9871234/tags/black-hole/</guid>
+      <guid>http://localhost:1313/demo/tags/black-hole/</guid>
       <description></description>
     </item>
     <item>
       <title>Relativity</title>
-      <link>http://localhost:1313/andrey9871234/tags/relativity/</link>
+      <link>http://localhost:1313/demo/tags/relativity/</link>
       <pubDate>Wed, 04 Oct 2023 22:11:36 +0700</pubDate>
-      <guid>http://localhost:1313/andrey9871234/tags/relativity/</guid>
+      <guid>http://localhost:1313/demo/tags/relativity/</guid>
       <description></description>
     </item>
     <item>
       <title>Space</title>
-      <link>http://localhost:1313/andrey9871234/tags/space/</link>
+      <link>http://localhost:1313/demo/tags/space/</link>
       <pubDate>Wed, 04 Oct 2023 22:11:36 +0700</pubDate>
-      <guid>http://localhost:1313/andrey9871234/tags/space/</guid>
+      <guid>http://localhost:1313/demo/tags/space/</guid>
       <description></description>
     </item>
     <item>
       <title>Cosmic</title>
-      <link>http://localhost:1313/andrey9871234/tags/cosmic/</link>
+      <link>http://localhost:1313/demo/tags/cosmic/</link>
       <pubDate>Sun, 24 Sep 2023 11:15:17 +0700</pubDate>
-      <guid>http://localhost:1313/andrey9871234/tags/cosmic/</guid>
+      <guid>http://localhost:1313/demo/tags/cosmic/</guid>
       <description></description>
     </item>
     <item>
       <title>Nebula</title>
-      <link>http://localhost:1313/andrey9871234/tags/nebula/</link>
+      <link>http://localhost:1313/demo/tags/nebula/</link>
       <pubDate>Sun, 24 Sep 2023 11:15:17 +0700</pubDate>
-      <guid>http://localhost:1313/andrey9871234/tags/nebula/</guid>
+      <guid>http://localhost:1313/demo/tags/nebula/</guid>
       <description></description>
     </item>
     <item>
       <title>Supernova</title>
-      <link>http://localhost:1313/andrey9871234/tags/supernova/</link>
+      <link>http://localhost:1313/demo/tags/supernova/</link>
       <pubDate>Sat, 23 Sep 2023 22:45:37 +0700</pubDate>
-      <guid>http://localhost:1313/andrey9871234/tags/supernova/</guid>
+      <guid>http://localhost:1313/demo/tags/supernova/</guid>
       <description></description>
     </item>
     <item>
       <title>Exploration</title>
-      <link>http://localhost:1313/andrey9871234/tags/exploration/</link>
+      <link>http://localhost:1313/demo/tags/exploration/</link>
       <pubDate>Tue, 15 Aug 2023 13:45:49 +0700</pubDate>
-      <guid>http://localhost:1313/andrey9871234/tags/exploration/</guid>
+      <guid>http://localhost:1313/demo/tags/exploration/</guid>
       <description></description>
     </item>
     <item>
       <title>Feature</title>
-      <link>http://localhost:1313/andrey9871234/tags/feature/</link>
+      <link>http://localhost:1313/demo/tags/feature/</link>
       <pubDate>Tue, 15 Aug 2023 13:45:49 +0700</pubDate>
-      <guid>http://localhost:1313/andrey9871234/tags/feature/</guid>
+      <guid>http://localhost:1313/demo/tags/feature/</guid>
       <description></description>
     </item>
     <item>
       <title>Mars</title>
-      <link>http://localhost:1313/andrey9871234/tags/mars/</link>
+      <link>http://localhost:1313/demo/tags/mars/</link>
       <pubDate>Tue, 15 Aug 2023 13:45:49 +0700</pubDate>
-      <guid>http://localhost:1313/andrey9871234/tags/mars/</guid>
+      <guid>http://localhost:1313/demo/tags/mars/</guid>
       <description></description>
     </item>
     <item>
       <title>Cosmos</title>
-      <link>http://localhost:1313/andrey9871234/tags/cosmos/</link>
+      <link>http://localhost:1313/demo/tags/cosmos/</link>
       <pubDate>Sat, 12 Aug 2023 14:15:05 +0700</pubDate>
-      <guid>http://localhost:1313/andrey9871234/tags/cosmos/</guid>
+      <guid>http://localhost:1313/demo/tags/cosmos/</guid>
       <description></description>
     </item>
     <item>
       <title>Telescopes</title>
-      <link>http://localhost:1313/andrey9871234/tags/telescopes/</link>
+      <link>http://localhost:1313/demo/tags/telescopes/</link>
       <pubDate>Mon, 07 Aug 2023 09:30:32 +0700</pubDate>
-      <guid>http://localhost:1313/andrey9871234/tags/telescopes/</guid>
+      <guid>http://localhost:1313/demo/tags/telescopes/</guid>
       <description></description>
     </item>
     <item>
       <title>Astronomy</title>
-      <link>http://localhost:1313/andrey9871234/tags/astronomy/</link>
+      <link>http://localhost:1313/demo/tags/astronomy/</link>
       <pubDate>Sun, 30 Jul 2023 09:30:32 +0700</pubDate>
-      <guid>http://localhost:1313/andrey9871234/tags/astronomy/</guid>
+      <guid>http://localhost:1313/demo/tags/astronomy/</guid>
       <description></description>
     </item>
     <item>
       <title>Telescope</title>
-      <link>http://localhost:1313/andrey9871234/tags/telescope/</link>
+      <link>http://localhost:1313/demo/tags/telescope/</link>
       <pubDate>Sun, 30 Jul 2023 09:30:32 +0700</pubDate>
-      <guid>http://localhost:1313/andrey9871234/tags/telescope/</guid>
+      <guid>http://localhost:1313/demo/tags/telescope/</guid>
       <description></description>
     </item>
     <item>
       <title>Exoplanets</title>
-      <link>http://localhost:1313/andrey9871234/tags/exoplanets/</link>
+      <link>http://localhost:1313/demo/tags/exoplanets/</link>
       <pubDate>Thu, 27 Jul 2023 13:03:07 +0700</pubDate>
-      <guid>http://localhost:1313/andrey9871234/tags/exoplanets/</guid>
+      <guid>http://localhost:1313/demo/tags/exoplanets/</guid>
       <description></description>
     </item>
   </channel>
