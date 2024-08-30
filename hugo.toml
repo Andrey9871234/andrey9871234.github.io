@@ -1,9 +1,9 @@
-baseURL = 'https://andrey9871234.github.io/'
+baseURL = 'https://forachild.org/'
 languageCode = 'en-us'
-title = 'Diligent Yield'
+title = 'For a Child'
 
 
-paginate = '5' # <- Set the desired number of posts per page 
+paginate = '6' # <- Set the desired number of posts per page 
 summaryLength = '20' # <- 20 words are approximately 160 characters
 googleAnalytics = 'G-MEASUREMENT_ID' # <- Your GA-4
 disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.com
@@ -14,9 +14,9 @@ disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.co
 	mainSections = 'posts'
 
 [author]
-	name = 'Andrei'
-	bio = 'Debitis assumenda esse dignissimos aperiam delectus maxime tenetur repudiandae dolore'
-	avatar = '/images/nasa-astronaut-unsplash.jpg'
+	name = 'Andrei CN'
+	bio = 'A student at Aarhus University. An investor. Publisher of this website.'
+	avatar = '/images/author_photo.png'
 	twitter = 'https://twitter.com/insertapps'
 
 [menu] # Menu management
