@@ -4,7 +4,7 @@ date: 2024-08-29T09:30:32+07:00
 slug: /children-future/
 description: Do children play a role in the big schema of life? Of course. What about the orphan kids?
 image: images/child_light.jpg
-caption: Photo by Google.
+caption: Photo by ForaChild.
 categories:
   - recent
 tags:
@@ -19,6 +19,7 @@ In the realm of this world everyone is looking for hapiness, that comes from ful
 
 How is the world going to look in the next 30 years? Can you have a direct impact on the lives of a human, a country, a generation?
 
+![Image Not Displayed on your browser](/images/2023/orphelinate(12).jfif)
 
 ## Conclusion: It's time to act
 

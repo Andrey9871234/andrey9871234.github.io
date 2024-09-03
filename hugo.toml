@@ -16,8 +16,9 @@ disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.co
 [author]
 	name = 'Andrei CN'
 	bio = 'A student at Aarhus University. An investor. Publisher of this website.'
-	avatar = '/images/author_photo.png'
+	avatar = '/images/author_photo1.png'
 	twitter = 'https://twitter.com/insertapps'
+	forms = 'forms.gle/vausXWdkLTwiVHfs5'
 
 [menu] # Menu management
 	[[menu.main]]
