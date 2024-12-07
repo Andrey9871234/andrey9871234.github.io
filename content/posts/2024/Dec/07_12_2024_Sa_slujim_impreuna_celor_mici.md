@@ -29,7 +29,7 @@ Noi, echipa *For a Child*, suntem dedicați să facem o diferență în viețile
 - **O Biblie pentru copii** – pentru a semăna speranță și lumină în sufletele lor.  
 
 ---
-
+{{< youtube t6JWfrENkWs >}} 
 ## **De ce este important?**  
 Pentru mulți dintre acești copii, Crăciunul este o perioadă dificilă, fără daruri sau clipe magice. Prin implicarea ta, le poți oferi:  
 - Un sentiment de apartenență și iubire.  
