@@ -3,7 +3,7 @@ title: "Christmas 2023, gifts for orphans"
 date: 2024-08-30T09:30:32+07:00
 slug: /first-Christmas/
 description: Let's look back at how we started...
-image: images/2023/kids_orphelinate.jfif
+image: images/2023/orphelinate(12).jfif
 caption: Photo by ForaChild at Cahul Orphanage.
 categories:
   - make-a-difference
@@ -21,7 +21,7 @@ You never know what you can do until you try it. We decided to not only try but 
 ## From idea to actions
 
 The team has decided to focus on a few orphelinates from Cahul region (southern Moldova), that happen to be overlooked by established charity foundations. The idea was to start the program, with quite simple gifts in the first years, and over the next periods to improve and personalize the gifts for every individual child according to his physical parameters, as well as their wishes. 
-![Image Not Displayed on your browser](/images/2023/orphelinate(3).jfif)
+![Image Not Displayed on your browser](/images/2023/orphelinate(6).jfif)
 Pitching the idea around, over 90 percent of those who heard it had responded positively, by offering either encouragement or some kind of help. A few people have offered  small financial donations, others helped in poducing the gift packages, transporting the packages to Moldova. Another group of volunteers, have offered their time to go to the orpelinates, communicate and distribute the gifts to the children. 
 
 Thus around 20 people from Denmark, Germany and Moldova have joined to make the life of a child better. 
