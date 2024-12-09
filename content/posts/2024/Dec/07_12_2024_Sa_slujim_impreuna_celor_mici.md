@@ -17,7 +17,7 @@ draft: false
 
 Împreună putem aduce bucurie în viața unor copii care au atât de mare nevoie de atenția și dragostea noastră.  
 
-👉 **Donează acum:** [revolut.me/forachild](https://revolut.me/blumen3)  
+👉 **Donează acum:** [revolut.me/forachild](https://revolut.me/cadou333)  
 
 ---
 
@@ -41,7 +41,7 @@ Fiecare donație contează și ne ajută să umplem aceste pachete cu bucurie.
 ---
 
 ## **Cum poți ajuta?**  
-✅ **Donează acum:** [revolut.me/forachild](https://revolut.me/blumen3)  
+✅ **Donează acum:** [revolut.me/forachild](https://revolut.me/cadou333)  
 ✅ Distribuie acest mesaj prietenilor și familiei tale.  
 ✅ Fii parte din această misiune minunată și ajută-ne să aducem speranță în sufletele acestor copii.  
 
@@ -53,4 +53,4 @@ Fiecare donație contează și ne ajută să umplem aceste pachete cu bucurie.
 ✨ **Împreună putem transforma Crăciunul lor într-un moment de neuitat!**  
 
 💖 Mulțumim că alegi să faci parte din această inițiativă.  
-👉 **Donează acum:** [revolut.me/forachild](https://revolut.me/blumen3)  
+👉 **Donează acum:** [revolut.me/forachild](https://revolut.me/cadou333)  
