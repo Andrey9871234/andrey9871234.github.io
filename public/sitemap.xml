@@ -46,9 +46,5 @@
   </url><url>
     <loc>http://localhost:1313/about/</loc>
     <lastmod>2023-10-06T20:37:29+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/call-to-action/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/next-project/</loc>
   </url>
 </urlset>
