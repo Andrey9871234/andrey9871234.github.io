@@ -31,10 +31,10 @@ Noi, echipa *For a Child*, suntem dedicați să facem o diferență în viețile
 ---
 {{< youtube qbAOZvuJplc >}} 
 ## **De ce este important?**  
-Pentru mulți dintre acești copii, Crăciunul este o perioadă dificilă, fără daruri sau clipe magice. Prin implicarea ta, le poți oferi:  
+Pentru mulți dintre acești copii, Crăciunul este o perioadă dificilă, fără daruri sau clipe de dragoste. Prin implicarea ta, le poți oferi:  
 - Un sentiment de apartenență și iubire.  
 - Amintiri frumoase care să le rămână în suflet.  
-- Un mic sprijin pentru a le arăta că lumea este plină de oameni care le pasă.  
+- Un mic sprijin pentru a le arăta că Cristos are oameni carora le pasă.  
 
 Fiecare donație contează și ne ajută să umplem aceste pachete cu bucurie.  
 
