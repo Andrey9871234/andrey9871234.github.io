@@ -17,7 +17,7 @@ draft: false
 
 Împreună putem aduce bucurie în viața unor copii care au atât de mare nevoie de atenția și dragostea noastră.  
 
-👉 **Donează acum:** [revolut.me/forachild](https://revolut.me/cadou333)  
+👉 **Donează acum:** [payment.link/forachild](https://revolut.me/cadou333)  
 
 ---
 
