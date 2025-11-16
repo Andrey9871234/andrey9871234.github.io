@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Support ForaChild - Help us bring joy to children in Moldova through donations, volunteering, or corporate partnerships.">
+    <title>Get Involved - ForaChild</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/get-involved.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="ForaChild Logo">
+                <span>ForaChild</span>
+            </div>
+            
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="get-involved.html" class="active">Get Involved</a></li>
+            </ul>
+            
+            <div class="nav-cta">
+                <a href="#donate" class="btn btn-primary">Donate Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="involvement-hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <h1>Make a Child Smile This Christmas</h1>
+            <p class="hero-subtitle">Your support transforms lives. Every contribution brings hope, joy, and love to children who need it most.</p>
+            <div class="hero-impact-preview">
+                <div class="impact-item">
+                    <span class="impact-icon">🎁</span>
+                    <span class="impact-text"><strong>€20</strong> = 1 Child's Gift</span>
+                </div>
+                <div class="impact-item">
+                    <span class="impact-icon">🎄</span>
+                    <span class="impact-text"><strong>€100</strong> = 5 Children's Christmas</span>
+                </div>
+                <div class="impact-item">
+                    <span class="impact-icon">❤️</span>
+                    <span class="impact-text"><strong>€240</strong> = Support 15 Families</span>
+                </div>
+            </div>
+            <div class="hero-cta-buttons">
+                <a href="#donate" class="btn btn-primary btn-large pulse-button">Donate Now</a>
+                <a href="#volunteer" class="btn btn-secondary btn-large">Become a Volunteer</a>
+            </div>
+        </div>
+        <div class="urgency-banner">
+            <span class="urgency-icon">⏰</span>
+            <span class="urgency-text"><strong>Christmas 2025 Campaign Active</strong> - Help us reach 600 children this year!</span>
+        </div>
+    </section>
+
+    <!-- Quick Impact Stats -->
+    <section class="quick-stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <div class="stat-number" data-target="600">0</div>
+                    <div class="stat-label">Our Goal for 2025</div>
+                    <div class="stat-sublabel">Children to help</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number"><span data-target="130">0</span>/<span>600</span></div>
+                    <div class="stat-label">Progress So Far</div>
+                    <div class="stat-sublabel">22% funded</div>
+                </div>
+                <div class="stat-box highlight">
+                    <div class="stat-number" data-target="470">0</div>
+                    <div class="stat-label">More Children Waiting</div>
+                    <div class="stat-sublabel">They need your help</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Tabs -->
+    <section class="involvement-tabs">
+        <div class="container">
+            <div class="tabs-navigation">
+                <button class="tab-btn active" data-tab="donate">💝 Donate</button>
+                <button class="tab-btn" data-tab="volunteer">🙋 Volunteer</button>
+                <button class="tab-btn" data-tab="corporate">🏢 Corporate Partnership</button>
+            </div>
+
+            <!-- Donate Tab -->
+            <div class="tab-content active" id="donate">
+                <div class="tab-intro">
+                    <h2>Your Gift Creates Magic</h2>
+                    <p>Every donation, no matter the size, brings real joy to a child in Moldova. 100% of your donation goes directly to purchasing and delivering gifts.</p>
+                </div>
+
+                <div class="donation-methods">
+                    <!-- One-Time Donation -->
+                    <div class="donation-card featured">
+                        <div class="card-badge">Most Popular</div>
+                        <div class="card-icon">🎁</div>
+                        <h3>One-Time Donation</h3>
+                        <p>Make an immediate impact this Christmas season</p>
+                        
+                        <div class="donation-amounts">
+                            <button class="amount-btn" data-amount="25">€25</button>
+                            <button class="amount-btn" data-amount="50">€50</button>
+                            <button class="amount-btn active" data-amount="100">€100</button>
+                            <button class="amount-btn" data-amount="250">€250</button>
+                            <button class="amount-btn custom" data-amount="custom">Custom</button>
+                        </div>
+
+                        <div class="donation-impact">
+                            <p class="impact-text">Your €100 will bring joy to <strong>4 children</strong> 🎄</p>
+                        </div>
+
+                        <div class="payment-methods">
+                            <h4>Choose Payment Method:</h4>
+                            <div class="payment-options">
+                                <button class="payment-btn" data-method="card">
+                                    <span class="payment-icon">💳</span>
+                                    <span>Card Payment</span>
+                                </button>
+                                <button class="payment-btn" data-method="transfer">
+                                    <span class="payment-icon">🏦</span>
+                                    <span>Bank Transfer</span>
+                                </button>
+                                <button class="payment-btn" data-method="mobilepay">
+                                    <span class="payment-icon">📱</span>
+                                    <span>MobilePay</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Payment Details (shown based on selection) -->
+                        <div class="payment-details" id="cardPayment" style="display: none;">
+                            <div class="payment-info-box">
+                                <h4>🔒 Secure Card Payment</h4>
+                                <p>You'll be redirected to our secure payment partner</p>
+                                <a href="https://revolut.me/forachild/pocket/4Src7l1drb" class="btn btn-primary btn-block" target="_blank">
+                                    Proceed to Payment →
+                                </a>
+                                <p class="secure-note">🔐 256-bit SSL encryption · PCI DSS compliant</p>
+                            </div>
+                        </div>
+
+                        <div class="payment-details" id="transferPayment" style="display: none;">
+                            <div class="payment-info-box">
+                                <h4>🏦 Bank Transfer Details</h4>
+                                <div class="bank-details">
+                                    <div class="detail-row">
+                                        <span class="detail-label">Account Name:</span>
+                                        <span class="detail-value">ForaChild</span>
+                                        <button class="copy-btn" data-copy="ForaChild">📋</button>
+                                    </div>
+                                    <div class="detail-row">
+                                        <span class="detail-label">IBAN:</span>
+                                        <span class="detail-value"></span>
+                                        <button class="copy-btn" data-copy="DK">📋</button>
+                                    </div>
+                                    <div class="detail-row">
+                                        <span class="detail-label">SWIFT/BIC:</span>
+                                        <span class="detail-value">DABADKKK</span>
+                                        <button class="copy-btn" data-copy="DABADKKK">📋</button>
+                                    </div>
+                                    <div class="detail-row">
+                                        <span class="detail-label">Reference:</span>
+                                        <span class="detail-value">Christmas2025</span>
+                                        <button class="copy-btn" data-copy="Christmas2025">📋</button>
+                                    </div>
+                                </div>
+                                <p class="transfer-note">⚠️ Please include "Christmas2025" as reference for proper tracking</p>
+                            </div>
+                        </div>
+
+                        <div class="payment-details" id="mobilepayPayment" style="display: none;">
+                            <div class="payment-info-box">
+                                <h4>📱 MobilePay</h4>
+                                <div class="mobilepay-details">
+                                    <p>Send your donation to:</p>
+                                    <div class="mobilepay-number">
+                                        <span class="large-number"></span>
+                                        <button class="copy-btn" data-copy="1">📋 Copy</button>
+                                    </div>
+                                    <p class="mobilepay-note">Add "Christmas2025" in the message</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Monthly Support -->
+                    <div class="donation-card">
+                        <div class="card-icon">🔄</div>
+                        <h3>Monthly Support</h3>
+                        <p>Become a sustaining partner - ongoing impact all year round</p>
+                        
+                        <div class="monthly-benefits">
+                            <div class="benefit-item">✓ Regular updates on your impact</div>
+                            <div class="benefit-item">✓ Exclusive volunteer opportunities</div>
+                            <div class="benefit-item">✓ Annual impact report</div>
+                            <div class="benefit-item">✓ Recognition on our website</div>
+                        </div>
+
+                        <div class="monthly-amounts">
+                            <div class="monthly-option">
+                                <input type="radio" name="monthly" id="monthly10" value="10">
+                                <label for="monthly10">
+                                    <span class="amount">€10/month</span>
+                                    <span class="impact">1 child every 3 months</span>
+                                </label>
+                            </div>
+                            <div class="monthly-option">
+                                <input type="radio" name="monthly" id="monthly25" value="25" checked>
+                                <label for="monthly25">
+                                    <span class="amount">€25/month</span>
+                                    <span class="impact">1 child every month</span>
+                                </label>
+                            </div>
+                            <div class="monthly-option">
+                                <input type="radio" name="monthly" id="monthly50" value="50">
+                                <label for="monthly50">
+                                    <span class="amount">€50/month</span>
+                                    <span class="impact">2 children every month</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <a href="#contact" class="btn btn-primary btn-block">Set Up Monthly Support</a>
+                        <p class="cancel-note">💡 Cancel anytime, no questions asked</p>
+                    </div>
+
+                    <!-- Other Ways to Help -->
+                    <div class="donation-card">
+                        <div class="card-icon">💡</div>
+                        <h3>Other Ways to Help</h3>
+                        <p>Can't donate money? Here are other valuable ways to support:</p>
+                        
+                        <div class="other-ways">
+                            <div class="way-item">
+                                <span class="way-icon">📢</span>
+                                <div>
+                                    <strong>Share Our Story</strong>
+                                    <p>Spread the word on social media</p>
+                                </div>
+                            </div>
+                            <div class="way-item">
+                                <span class="way-icon">🎉</span>
+                                <div>
+                                    <strong>Fundraise for Us</strong>
+                                    <p>Birthday, marathon, or company event</p>
+                                </div>
+                            </div>
+                            <div class="way-item">
+                                <span class="way-icon">🎁</span>
+                                <div>
+                                    <strong>Donate in Kind</strong>
+                                    <p>New toys, books, warm clothes</p>
+                                </div>
+                            </div>
+                            <div class="way-item">
+                                <span class="way-icon">🤝</span>
+                                <div>
+                                    <strong>Connect Us</strong>
+                                    <p>Introduce us to potential partners</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tax Deduction Info 
+                <div class="tax-info">
+                    <h4>💰 Tax Deductible</h4>
+                    <p>ForaChild is a registered non-profit (CVR: 12345678).  Contact us for documentation.</p>
+                </div> -->
+            </div> 
+
+            <!-- Volunteer Tab -->
+            <div class="tab-content" id="volunteer">
+                <div class="tab-intro">
+                    <h2>Join Our Mission as a Volunteer</h2>
+                    <p>From Denmark to Moldova, our volunteers are the heart of ForaChild. Whether you have 2 hours or 20, there's a place for you.</p>
+                </div>
+
+                <div class="volunteer-opportunities">
+                    <div class="opportunity-card">
+                        <div class="opportunity-icon">📦</div>
+                        <h3>In Denmark</h3>
+                        <ul class="opportunity-list">
+                            <li>Gift sorting and packaging (November-December)</li>
+                            <li>Fundraising event organization</li>
+                            <li>Social media and marketing support</li>
+                            <li>Translation services (Danish/English/Romanian)</li>
+                            <li>Photography and videography</li>
+                            <li>Administrative support</li>
+                        </ul>
+                        <p class="time-commitment">⏰ Flexible schedule, mostly weekends</p>
+                    </div>
+
+                    <div class="opportunity-card featured">
+                        <div class="card-badge">Special Opportunity</div>
+                        <div class="opportunity-icon">🇲🇩</div>
+                        <h3>In Moldova</h3>
+                        <ul class="opportunity-list">
+                            <li>Gift distribution to children (December)</li>
+                            <li>Local coordination and logistics</li>
+                            <li>Family visits and needs assessment</li>
+                            <li>Translation and cultural guidance</li>
+                            <li>Photography and documentation</li>
+                        </ul>
+                        <p class="time-commitment">⏰ 1-2 weeks in December (travel included)</p>
+                        <p class="special-note">✈️ We cover travel and accommodation for selected volunteers</p>
+                    </div>
+
+                    <div class="opportunity-card">
+                        <div class="opportunity-icon">💻</div>
+                        <h3>Remote / Anywhere</h3>
+                        <ul class="opportunity-list">
+                            <li>Graphic design and branding</li>
+                            <li>Website development and maintenance</li>
+                            <li>Content writing and storytelling</li>
+                            <li>Social media management</li>
+                            <li>Virtual fundraising campaigns</li>
+                            <li>Grant writing and research</li>
+                        </ul>
+                        <p class="time-commitment">⏰ Work from anywhere, on your schedule</p>
+                    </div>
+                </div>
+
+                <div class="volunteer-cta-box">
+                    <h3>Ready to Make a Difference?</h3>
+                    <p>Fill out our volunteer application form and we'll be in touch within 48 hours!</p>
+                    <a href="https://forms.gle/xVffjzbeuUWWDFRa7" class="btn btn-primary btn-large" target="_blank">
+                        Apply to Volunteer →
+                    </a>
+                    <p class="form-note">Takes 3-5 minutes to complete</p>
+                </div>
+
+                <div class="volunteer-testimonials">
+                    <h3>What Our Volunteers Say</h3>
+                    <div class="testimonial-grid">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">"Seeing the children's faces light up was the most rewarding experience of my life. I'll never forget those smiles."</p>
+                            <div class="testimonial-author">
+                                <strong>Andrei C.</strong>
+                                <span>Horsens· 2024 Volunteer</span>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">"Being part of the Moldova trip changed my perspective on giving. It's not just about gifts—it's about showing children they matter."</p>
+                            <div class="testimonial-author">
+                                <strong>John C.</strong>
+                                <span>Cahul · Field Volunteer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="volunteer-faq">
+                    <h3>Got Questions?</h3>
+                    <div class="faq-grid">
+                        <div class="faq-item">
+                            <strong>Do I need experience?</strong>
+                            <p>Not at all! We provide training and guidance for all roles.</p>
+                        </div>
+                        <div class="faq-item">
+                            <strong>How much time is required?</strong>
+                            <p>From 2 hours to full-time—we work with your schedule.</p>
+                        </div>
+                        <div class="faq-item">
+                            <strong>Do I need to speak Romanian?</strong>
+                            <p>Helpful but not required. Many of our volunteers are translators!</p>
+                        </div>
+                        <div class="faq-item">
+                            <strong>Can I volunteer as a group?</strong>
+                            <p>Yes! We love corporate volunteer days and school groups.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Corporate Tab -->
+            <div class="tab-content" id="corporate">
+                <div class="tab-intro">
+                    <h2>Partner with Us for Meaningful Impact</h2>
+                    <p>Join leading companies in Denmark making a real difference in children's lives. Corporate partnerships amplify impact and engage your team.</p>
+                </div>
+
+                <div class="partnership-benefits">
+                    <h3>Why Partner with ForaChild?</h3>
+    <div class="benefits-grid">
+                        <div class="benefit-card">
+                            <div class="benefit-icon">🎯</div>
+                            <h4>Measurable Impact</h4>
+                            <p>Track exactly how many children your company helps with detailed reporting</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="benefit-icon">👥</div>
+                            <h4>Employee Engagement</h4>
+                            <p>Boost morale with meaningful volunteer opportunities and team activities</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="benefit-icon">🌟</div>
+                            <h4>Brand Visibility</h4>
+                            <p>Recognition on our website, social media, and annual reports</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="benefit-icon">📊</div>
+                            <h4>CSR Goals</h4>
+                            <p>Strengthen your corporate social responsibility profile with authentic impact</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="benefit-icon">🤝</div>
+                            <h4>Long-term Partnership</h4>
+                            <p>Build a lasting relationship with regular updates and exclusive events</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="partnership-tiers">
+                    <h3>Partnership Packages</h3>
+                    <div class="tiers-grid">
+                        <div class="tier-card">
+                            <div class="tier-name">Bronze Partner</div>
+                            <div class="tier-amount">€500 - €2,000</div>
+                            <ul class="tier-benefits">
+                                <li>✓ Support 20-80 children</li>
+                                <li>✓ Logo on website</li>
+                                <li>✓ Social media recognition</li>
+                                <li>✓ Impact report</li>
+                                <li>✓ Volunteer opportunity for 5 employees</li>
+                            </ul>
+                        </div>
+
+                        <div class="tier-card featured">
+                            <div class="tier-badge">Most Popular</div>
+                            <div class="tier-name">Silver Partner</div>
+                            <div class="tier-amount">€2,000 - €5,000</div>
+                            <ul class="tier-benefits">
+                                <li>✓ Support 80-200 children</li>
+                                <li>✓ Featured logo placement</li>
+                                <li>✓ Dedicated social media posts</li>
+                                <li>✓ Quarterly impact reports</li>
+                                <li>✓ Volunteer day for up to 20 employees</li>
+                                <li>✓ Co-branded campaign materials</li>
+                                <li>✓ Invitation to annual event</li>
+                            </ul>
+                        </div>
+
+                        <div class="tier-card premium">
+                            <div class="tier-name">Gold Partner</div>
+                            <div class="tier-amount">€5,000+</div>
+                            <ul class="tier-benefits">
+                                <li>✓ Support 200+ children</li>
+                                <li>✓ Premier logo placement</li>
+                                <li>✓ Dedicated PR campaign</li>
+                                <li>✓ Monthly impact reports with photos</li>
+                                <li>✓ Unlimited volunteer opportunities</li>
+                                <li>✓ Company visit to Moldova (2 representatives)</li>
+                                <li>✓ Co-branded project naming</li>
+                                <li>✓ Speaking opportunity at our events</li>
+                                <li>✓ Custom partnership package</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="partnership-types">
+                    <h3>Types of Corporate Support</h3>
+                    <div class="support-types-grid">
+                        <div class="support-type">
+                            <h4>💰 Financial Sponsorship</h4>
+                            <p>Direct monetary contribution for maximum flexibility in our mission</p>
+                        </div>
+                        <div class="support-type">
+                            <h4>🎁 In-Kind Donations</h4>
+                            <p>Toys, books, clothing, or services that directly benefit children</p>
+                        </div>
+                        <div class="support-type">
+                            <h4>👥 Employee Engagement</h4>
+                            <p>Volunteer days, skills-based volunteering, or fundraising campaigns</p>
+                        </div>
+                        <div class="support-type">
+                            <h4>📦 Product Partnerships</h4>
+                            <p>Cause marketing campaigns with percentage of sales donated</p>
+                        </div>
+                        <div class="support-type">
+                            <h4>🎪 Event Sponsorship</h4>
+                            <p>Support our fundraising events and gain brand visibility</p>
+                        </div>
+                        <div class="support-type">
+                            <h4>💡 Pro Bono Services</h4>
+                            <p>Marketing, legal, IT, or other professional services</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="corporate-cta-box">
+                    <h3>Let's Create Impact Together</h3>
+                    <p>Schedule a call with our partnerships team to discuss how your company can make a difference</p>
+                    <div class="corporate-cta-buttons">
+                        <a href="https://forms.gle/J2JBvnJ5SaB5iGVT9" class="btn btn-primary btn-large" target="_blank">
+                            Request Partnership Info →
+                        </a>
+                        <a href="mailto:forachild.org@gmail.com" class="btn btn-outline btn-large">
+                            Email Us Directly
+                        </a>
+                    </div>
+                    <p class="response-time">📧 We respond within 24 hours on business days</p>
+                </div>
+
+               <!-- <div class="current-partners">
+                    <h3>Trusted by Leading Companies</h3>
+                    <p class="partners-intro">Join these organizations making a difference</p>
+                    <div class="partners-logos">
+                        <div class="partner-logo">
+                            <img src="images/partners/partner1.png" alt="Partner Company 1">
+                        </div>
+                        <div class="partner-logo">
+                            <img src="images/partners/partner2.png" alt="Partner Company 2">
+                        </div>
+                        <div class="partner-logo">
+                            <img src="images/partners/partner3.png" alt="Partner Company 3">
+                        </div>
+                        <div class="partner-logo">
+                            <img src="images/partners/partner4.png" alt="Partner Company 4">
+                        </div>
+                         Add more as needed 
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Still Have Questions?</h2>
+                    <p>We're here to help! Reach out to our team and we'll get back to you as soon as possible.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">📧</div>
+                            <div class="method-content">
+                                <strong>General Inquiries</strong>
+                                <a href="mailto:info@forachild.org">forachild.org@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">🤝</div>
+                            <div class="method-content">
+                                <strong>Partnerships</strong>
+                                <a href="mailto:forachild.org@gmail.com">forachild.org@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">🙋</div>
+                            <div class="method-content">
+                                <strong>Volunteer Coordinator</strong>
+                                <a href="mailto:forachild.org@gmail.com">volunteer@forachild.org</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">📱</div>
+                            <div class="method-content">
+                                <strong>Phone</strong>
+                                <a href="tel:+4552226570">+45 +45 52 22 65 70</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="response-guarantee">
+                        <p>⚡ <strong>Response Guarantee:</strong> We reply to all inquiries within 24 hours on business days</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust & Transparency -->
+    <section class="trust-section">
+        <div class="container">
+            <h2>Why Trust ForaChild?</h2>
+            <div class="trust-grid">
+                <div class="trust-item">
+                    <div class="trust-icon">💯</div>
+                    <h4>100% Direct Impact</h4>
+                    <p>Every donated euro goes directly to children—no administrative fees deducted</p>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">📸</div>
+                    <h4>Full Transparency</h4>
+                    <p>We document every project with photos and detailed reports</p>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">🏛️</div>
+                    <h4>Registered Non-Profit</h4>
+                    <p>Official CVR: 45666379 · Compliant with Danish regulations</p>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">🎯</div>
+                    <h4>Proven Track Record</h4>
+                    <p>3 years of successful projects · 244+ children helped</p>
+                </div>
+            </div>
+        </div>m
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <div class="final-cta-content">
+                <h2>Every Child Deserves to Feel Special</h2>
+                <p>This Christmas, you can be the reason a child in Moldova smiles. Your generosity transforms lives.</p>
+                <div class="final-buttons">
+                    <a href="#donate" class="btn btn-primary btn-large">Make Your Donation</a>
+                    <a href="#volunteer" class="btn btn-secondary btn-large">Join as Volunteer</a>
+                </div>
+                <p class="final-message">❤️ Thank you for caring. Together, we create hope.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ForaChild</h3>
+                    <p>Bringing light into the lives of children in Moldova since 2023</p>
+                    <div class="footer-legal">
+                        <p><strong>CVR:</strong> 45666379</p>
+                        <p><small>Registered non-profit organization. Betel Horsens.</small></p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="get-involved.html">Get Involved</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: forachild.org@gmail.com</p>
+                    <p>Phone: +45 52 22 65 70</p>
+                    <p>Based in Horsens, Denmark</p>
+                    <p>Working in Moldova</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/profile.php?id=61571588560664" aria-label="Facebook" title="Facebook">FB</a>
+                        <a href="#" aria-label="Instagram" title="Instagram">IG</a>
+                        <a href="#" aria-label="LinkedIn" title="LinkedIn">IN</a>
+                    </div>
+                    <p style="margin-top: 16px; font-size: 0.875rem;">Join our mission on social media</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ForaChild. All rights reserved. | Making a difference, one child at a time.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/get-involved.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+# .gitignore file
+node_modules/
+.DS_Store
+*.log
+.vscode/
+dist/
+build/
+
+# Optional: Exclude large images
+images/
+# Or just exclude large files
+*.psd
+*.ai
+*.mp4
+*.mov

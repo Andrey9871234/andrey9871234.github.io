@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ForaChild Photo Gallery - See the joy we've brought to children in Moldova through our Christmas gift projects.">
+    <title>Gallery - ForaChild</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="ForaChild Logo">
+                <span>ForaChild</span>
+            </div>
+            
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="get-involved.html">Get Involved</a></li>
+            </ul>
+            
+            <div class="nav-cta">
+                <a href="get-involved.html" class="btn btn-primary">Donate Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Gallery Hero -->
+    <section class="gallery-hero">
+        <div class="gallery-hero-overlay"></div>
+        <div class="container">
+            <h1>Moments of Joy</h1>
+            <p>Every photo tells a story of hope, love, and the difference we make together</p>
+        </div>
+    </section>
+
+    <!-- Gallery Stats -->
+    <section class="gallery-stats-strip">
+        <div class="container">
+            <div class="stats-row">
+                <div class="stat-item-mini">
+                    <span class="stat-number">212+</span>
+                    <span class="stat-label">Happier Faces</span>
+                </div>
+                <div class="stat-item-mini">
+                    <span class="stat-number">3+</span>
+                    <span class="stat-label">Years of Impact</span>
+                </div>
+                <div class="stat-item-mini">
+                    <span class="stat-number">244+</span>
+                    <span class="stat-label">Gifts Delivered</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Filters -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-controls">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All Photos</button>
+                    <button class="filter-btn" data-filter="2024">Christmas 2024</button>
+                    <button class="filter-btn" data-filter="2023">Christmas 2023</button>
+                    <button class="filter-btn" data-filter="behind-scenes">Behind the Scenes</button>
+                    <button class="filter-btn" data-filter="volunteers">Our Volunteers</button>
+                </div>
+                
+                <div class="view-toggle">
+                    <button class="view-btn active" data-view="grid" title="Grid View">
+                        <span>⊞</span>
+                    </button>
+                    <button class="view-btn" data-view="masonry" title="Masonry View">
+                        <span>⊟</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Photo Gallery Grid -->
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- 2024 Photos -->
+                <div class="gallery-card" data-category="2024" data-year="2024">
+                    <div class="card-image">
+                        <img src="images/gallery/2024/photo1.jpg" alt="Christmas 2024 - Gift Distribution" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="view-icon">👁️</span>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Gift Distribution Day</h3>
+                        <p>December 2024 • Moldova</p>
+                        <span class="card-tag">Christmas 2024</span>
+                    </div>
+                </div>
+
+                <div class="gallery-card" data-category="2024" data-year="2024">
+                    <div class="card-image">
+                        <img src="images/gallery/2024/photo2.jpg" alt="Happy children receiving gifts" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="view-icon">👁️</span>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Pure Joy</h3>
+                        <p>Season 2024 • Moldova</p>
+                        <span class="card-tag">Christmas 2024</span>
+                    </div>
+                </div>
+
+                <div class="gallery-card" data-category="2024" data-year="2024">
+                    <div class="card-image">
+                        <img src="images/gallery/2024/photo3.jpg" alt="Children opening presents" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="view-icon">👁️</span>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Unwrapping Magic</h3>
+                        <p>December 2024 • Cahul</p>
+                        <span class="card-tag">Christmas 2024</span>
+                    </div>
+                </div>
+
+                <!-- 2023 Photos -->
+                <div class="gallery-card" data-category="2023" data-year="2023">
+                    <div class="card-image">
+                        <img src="images/gallery/2023/photo1.jpg" alt="First Christmas project 2023" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="view-icon">👁️</span>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Our First Mission</h3>
+                        <p> 2023 • Moldova</p>
+                        <span class="card-tag">Christmas 2023</span>
+                    </div>
+                </div>
+
+                <div class="gallery-card" data-category="2023" data-year="2023">
+                    <div class="card-image">
+                        <img src="images/gallery/2023/photo (12).jpg" alt="Children celebrating 2023" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="view-icon">👁️</span>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Where It All Began</h3>
+                        <p>December 2023 • Moldova</p>
+                        <span class="card-tag">Christmas 2023</span>
+                    </div>
+                </div>
+                <div class="gallery-card" data-category="2023" data-year="2023">
+                    <div class="card-image">
+                        <img src="images/gallery/2023/photo (10).jpg" alt="Children celebrating 2023" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="view-icon">👁️</span>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3>On the ground</h3>
+                        <p>December 2023 • Moldova</p>
+                        <span class="card-tag">Christmas 2023</span>
+                    </div>
+                </div>
+                <div class="gallery-card" data-category="2023" data-year="2023">
+                    <div class="card-image">
+                        <img src="images/gallery/2023/photo (12).jfif" alt="Children celebrating 2023" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="view-icon">👁️</span>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Small beginnings</h3>
+                        <p>December 2023 • Moldova</p>
+                        <span class="card-tag">Christmas 2023</span>
+                    </div>
+                </div>
+                <div class="gallery-card" data-category="2023" data-year="2023">
+                    <div class="card-image">
+                        <img src="images/gallery/2023/photo (16).jpg" alt="Children celebrating 2023" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="view-icon">👁️</span>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Sharing smiles</h3>
+                        <p>December 2023 • Moldova</p>
+                        <span class="card-tag">Christmas 2023</span>
+                    </div>
+                </div>
+
+                <!-- Behind the Scenes -->
+                <div class="gallery-card" data-category="behind-scenes">
+                    <div class="card-image">
+                        <img src="images/team/team (13).jpg" alt="Volunteers packing gifts" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="view-icon">👁️</span>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Gift Preparation</h3>
+                        <p>Season 2024</p>
+                        <span class="card-tag">Behind the Scenes</span>
+                    </div>
+                </div>
+
+                <div class="gallery-card" data-category="behind-scenes">
+                    <div class="card-image">
+                        <img src="images/team/team (14).jpg" alt="Loading gifts for transport" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="view-icon">👁️</span>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Ready for Delivery</h3>
+                        <p>Season 2024 </p>
+                        <span class="card-tag">Behind the Scenes</span>
+                    </div>
+                </div>
+
+                <!-- Volunteers -->
+                <div class="gallery-card" data-category="volunteers">
+                    <div class="card-image">
+                        <img src="images/team/volunteers.jpg" alt="Volunteer team" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="view-icon">👁️</span>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Our Amazing Team</h3>
+                        <p>2024 season</p>
+                        <span class="card-tag">Our Volunteers</span>
+                    </div>
+                </div>
+
+                <div class="gallery-card" data-category="volunteers">
+                    <div class="card-image">
+                        <img src="images/team/team (9).jpg" alt="Volunteers in Moldova" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="view-icon">👁️</span>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Local Heroes</h3>
+                        <p>2024 • Moldova</p>
+                        <span class="card-tag">Our Volunteers</span>
+                    </div>
+                </div>
+
+                <!-- Add more cards as needed -->
+            </div>
+
+            <!-- Load More Button -->
+            <div class="load-more-container">
+                <button class="btn btn-outline load-more-btn" id="loadMoreBtn">
+                    Load More Photos
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="gallery-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Want to Create More Moments Like These?</h2>
+                <p>Your support helps us bring joy to more children every year. Join us in making a difference.</p>
+                <div class="cta-buttons">
+                    <a href="get-involved.html" class="btn btn-primary btn-large">Donate Now</a>
+                    <a href="get-involved.html#volunteer" class="btn btn-secondary btn-large">Become a Volunteer</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">&times;</button>
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev">‹</button>
+        <button class="lightbox-nav lightbox-next" id="lightboxNext">›</button>
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightboxImage">
+            <div class="lightbox-caption">
+                <h3 id="lightboxTitle"></h3>
+                <p id="lightboxDescription"></p>
+                <span id="lightboxTag"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+   <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ForaChild</h3>
+                    <p>Bringing light into the lives of children in Moldova since 2023</p>
+                    <div class="footer-legal">
+                        <p><strong>CVR:</strong> 45666379</p>
+                        <p><small>Registered non-profit organization. Betel Horsens.</small></p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="get-involved.html">Get Involved</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: forachild.org@gmail.com</p>
+                    <p>Phone: +45 52 22 65 70</p>
+                    <p>Based in Horsens, Denmark</p>
+                    <p>Working in Moldova</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/profile.php?id=61571588560664" aria-label="Facebook" title="Facebook">FB</a>
+                        <a href="#" aria-label="Instagram" title="Instagram">IG</a>
+                        <a href="#" aria-label="LinkedIn" title="LinkedIn">IN</a>
+                    </div>
+                    <p style="margin-top: 16px; font-size: 0.875rem;">Join our mission on social media</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ForaChild. All rights reserved. | Making a difference, one child at a time.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>
